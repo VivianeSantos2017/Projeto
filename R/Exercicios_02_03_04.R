@@ -33,6 +33,7 @@ parcelas=ex3[,-1]#em 2 passos
 parcelas
 colSums(parcelas)
 
+#teria tb a funcao 'apply', mas tem que colocar apply(nome do objeto, 1 ou 2 - sendo 1 para linha e 2 para coluna, operacao que quer fazer). Nesse caso seria apply (parcelas, 2, sum)
 
 ##Exercicio 4
 
@@ -43,6 +44,6 @@ ex4
 head(ex4)
 str(ex4)
 colnames(ex4)#vendo os nomes das colunas para identificar as de especies e coordenadas
-gbif4 = ex4[,c(10, 17, 18)]#criando objeto com as colunas especies e coordenadas
+gbif4 = ex4[,c(10, 17, 18)]#criando objeto com as colunas especies e coordenadas; o ideal seria concatenar ja com os nomes das colunas para tornar mais estavel o comando e evitar erro
 gbif4
 write.csv(gbif4, "Data/exercicio_04.csv", row.names = FALSE)#salvando arquivo com os dados
