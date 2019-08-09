@@ -2,6 +2,8 @@
 ##Graficos em R
 #----------------
 
+#Este script se trata de um tutorial disponibilizado na Aula 7 sobre gráficos. As figuras geradas a partir deste script (figura01 e figura02) estão na pasta figs.
+
 ##Grafico de dispersao: plot e abline
 
 # lendo os dados direto do github: vai no endereco do arquivo, clica nele, clica em raw e copia o endereco na funcao read.csv.
@@ -211,4 +213,6 @@ plot(GNP ~ Year, data = longley, type='l',
      xaxt='n', las=1, bty='l', lty=1, lwd=2)
 axis(1, at=longley$Year)
 
-#no readme da aula 7 tem um exercicio e um desafio para fazer!!!
+##AVISO IMPORTANTE: No readme da aula 7 tem um exercicio e um desafio.
+#O exercício foi elaborado em arquivo R Markdown e está na pasta dados.
+#Para o desafio foi criado um script (arquivo DesafioAula7.R)

@@ -2,7 +2,11 @@
 ##Exercicio 6
 #--------------
 
-#Crie um script no R contendo os seguintes passos:
+# Este script apresenta os codigos com os resultados dos exercícios da aula 4 sobre limpeza e manipulacao de dados
+
+#---------------------------------------------------------
+
+##Exercicio 6: Crie um script no R contendo os seguintes passos:
   
 #1- leia o arquivo trees.csv que já está na pasta data da aula 4, antes transferir para o seu diretório data
 

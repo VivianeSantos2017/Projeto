@@ -2,6 +2,8 @@
 ##Tutorial Analise Exploratoria de Dados
 #----------------------------------------
 
+#Este script se trata de um tutorial disponibilizado na Aula 6 sobre analise exploratoria de dados (aed).
+
 ##Parte 1: O quarteto de Anscombe
 
 data("anscombe")#carregando o dado Anscombe da base do R
